@@ -7028,4 +7028,9 @@ progress {
 
 .bg-attach {
   background-attachment: fixed;
+}
+
+.object-fit-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=all.css.map */
