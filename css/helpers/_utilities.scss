@@ -640,8 +640,24 @@ $utilities: map-merge(
         visible: visible,
         invisible: hidden,
       )
-    )
+    ),
     // scss-docs-end utils-visibility
+    // custom
+    "object-fit": (
+      property: object-fit,
+      class: object-fit,
+      values: (
+        cover: cover,
+      )
+    ),
+
+    "bg-attachment": (
+      property: background-attachment,
+      class: bg-attach,
+      values: (
+        fixed: fixed,
+      )
+    )
   ),
   $utilities
 );
